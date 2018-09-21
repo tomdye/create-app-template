@@ -1,0 +1,24 @@
+@import '../../variables.css';
+
+.root {
+	height: calc(var(--grid-size) * 6);
+	padding: var(--grid-size);
+	background: var(--header-background);
+	display: flex;
+	align-items: center;
+}
+
+.active {
+	color: var(--active-link);
+}
+
+.nav {
+
+}
+
+.link {
+	text-decoration: none;
+	margin: 0 var(--grid-size);
+	font-weight: bold;
+	transition: color 0.2s ease-in-out;
+}

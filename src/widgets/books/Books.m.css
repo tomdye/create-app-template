@@ -1,0 +1,23 @@
+@import '../../variables.css';
+
+.root {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.item {
+	margin: 0;
+	padding: calc(var(--grid-size) * 2) var(--grid-size);
+	border-bottom: 1px solid var(--header-background);
+}
+
+.link {
+	text-decoration: none;
+	color: var(--text-color);
+	transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+	color: var(--link-color);
+}

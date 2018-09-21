@@ -1,0 +1,30 @@
+@import '../../variables.css';
+
+.root {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.3);
+	display: flex;
+	padding-top: calc(var(--grid-size) * 5);
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.header {
+	text-align: right;
+}
+
+.close {
+	text-decoration: none;
+}
+
+.modal {
+	background: #fff;
+	padding: calc(var(--grid-size) * 2);
+	max-width: 400px;
+	border: 1px solid var(--header-background);
+	border-radius: 4px;
+}

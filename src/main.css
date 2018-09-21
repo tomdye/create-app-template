@@ -1,0 +1,13 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto,Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 400;
+	color: #212121;
+}
+
+a {
+	color: #1565C0;
+}
